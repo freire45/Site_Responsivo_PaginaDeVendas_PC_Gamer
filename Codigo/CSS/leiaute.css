@@ -1,0 +1,234 @@
+body{
+    background-color: black;
+}
+
+.secaoLogo{
+    width: 100%;
+    background-color: #453d3d;
+    border-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: thick;
+    float: left;
+    margin-bottom: 0.2%;
+}
+
+.secaoLogo a figure{
+    text-align: center;
+}
+
+.secaoLogo a figure img{
+    width: 10%;
+}
+
+.menu{
+    background-color: #453d3d;
+    width: 100%;
+    border-radius: 10px;
+    float:left;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+    
+}
+
+.menu ol{
+   font-size: 200%;
+   list-style: none;  
+   float: left;
+   font-weight: bolder;
+   padding-right: 0.2%;
+   padding-left: 0.2%;
+   width: 100%;
+   border-radius: 10px;
+   margin-top: 0.2%;
+   margin-bottom: 0.2%;
+}
+
+.menu li {
+	position: relative;
+	float: left;
+	border: 2px solid #3d1616;
+    background-color: black;
+    margin-left: 0.1%;
+	margin-right: 0.2;
+	padding-left: 9%;
+	padding-right: 9%;    
+    border-radius: 10px;
+}
+
+
+
+.menu li a{
+	color: #800404;
+	text-decoration: none;
+	display: block;	
+}
+
+.menu li a:hover{
+	background: #480c0c;
+	color: #453d3d;
+	-moz-box-shadow:0 3px 10px 0 black;
+	-webkit-box-shadow: 0 3px 10px 0 black;
+	text-shadow: 0px 0px 5px black;
+}
+
+
+
+.tituloPrincipal{
+    font-weight: bolder;
+    font-size: 200%;
+    margin-left: 2%;
+    color:  #480c0c;
+}
+
+.tituloPrincipal2{
+    font-weight: bolder;
+    font-size: 200%;
+    margin-left: 2%;
+    color:  #453d3d;
+}
+
+#Produto{
+    width: 100%;
+    background-color: #453d3d;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+}
+
+#Produto img{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    display: block;
+}
+
+#Produto ol{
+    float: left;
+    font-size: 200%;
+    list-style: none;
+    background-color: #800404 ;
+    border-radius: 10px;
+    margin-top: 14%;
+    display: block;
+    margin-left: 2%;
+    padding: 2%;
+    color: #480c0c;
+    width: 45%;
+}
+
+#Descricao{
+    width: 100%;
+    background-color: #320808;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+}
+
+#Descricao img{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    display: block;
+}
+
+#Descricao ol{
+    float: left;
+    font-size: 200%;
+    list-style: none;
+    background-color: black ;
+    border-radius: 10px;
+    margin-top: 14%;
+    display: block;
+    margin-left: 2%;
+    padding: 2%;
+    color: #453d3d;
+    width: 45%;
+}
+
+#Video{
+    width: 100%;
+    background-color: #453d3d;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+}
+
+.video2{
+    border-radius: 10px;
+    margin-left: 27%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#Contato{
+    width: 100%;
+    background-color: #320808;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+}
+
+#Contato form{
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:  #453d3d;
+    font-size: 150%;
+    font-weight: bolder;
+    background-color: #e04848;    
+    border-radius: 10px;
+}
+
+#Contato form fieldset{
+    color:  #453d3d;
+    border-radius: 10px;
+}
+
+#Contato form fieldset input{
+    width: 90.6%;
+    color:  #453d3d;
+    font-size: 70%;
+    font-weight: bolder;
+}
+
+#Contato form fieldset textarea{
+    color:  #453d3d;
+    font-size: 70%;
+    font-weight: bolder;
+}
+
+#Contato form fieldset button{
+    width: 20%;
+    color:  #453d3d;
+    background-color: red;
+    font-size: 70%;
+    font-weight: bolder;
+    margin-left: 20%;
+}
+
+.rodape{
+    width: 100%;
+    background-color: #453d3d;
+    border-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: thick;
+    float: left;
+    margin-bottom: 0.2%;
+}
+
+.rodape p{    
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150%;
+    margin-left: 2%;
+    color:  #480c0c;
+}
